@@ -1,10 +1,8 @@
-# Tomcat installation on EC2 instance
-- Follow this video lecture in Valaxy Technologies **[YouTube Channel](https://youtu.be/68WNroQBUts)**  
-- Complete DevOps Project course on [Udemy](https://www.udemy.com/course/valaxy-devops/?referralCode=8147A5CF4C8C7D9E253F)  
+# Tomcat installation on GCP instance
 ### Pre-requisites
-1. EC2 instance with Java 11
+1. VM instance with Java 11
 ### Install Apache Tomcat
-1. Download tomcat packages from  https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
+1. Download tomcat packages from  [https://tomcat.apache.org/download-80.cgi](https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.70/bin/apache-tomcat-9.0.70.tar.gz) onto /opt on VM instance
    > Note: Make sure you change `<version>` with the tomcat version which you download. 
    ```sh 
    # Create tomcat directory
